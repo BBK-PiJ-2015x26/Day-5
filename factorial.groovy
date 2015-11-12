@@ -9,3 +9,13 @@ int factorial(int n) {
 }
 
 println factorial(9)
+
+//Iterative method for factorial
+int factorialIt(int n) {
+	result = 1
+	for (i=1; i <= n; i++) result *= i;
+	return result
+}
+
+println factorialIt(9)
+	
