@@ -17,8 +17,9 @@ int fibIt(int n) {
 		return 1;
 	} else {
 		for (i = 1; i < n; i++)
-			result = n + (n-1)
+			result = i + (i-1)
+		return result
 	}
 }
 
-println fib(10)
+println fibIt(10) // Haven't actually solved (will try again later)
